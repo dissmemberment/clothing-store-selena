@@ -11,13 +11,13 @@ const Hero = () => {
                 Летняя коллекция
               </p>
               <h2 className="text-6xl lg:text-7xl font-light text-brown-900 font-montserrat leading-none">
-                Summer
+                ЛЕТО
                 <span className="block font-bold">2025</span>
               </h2>
             </div>
             <p className="text-lg text-brown-600 leading-relaxed max-w-md">
               Стильная летняя одежда для активной и яркой жизни. Комфорт и
-              элегантность в каждой детали.
+              элегантность в каждой детали на этот сезон.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
@@ -39,7 +39,7 @@ const Hero = () => {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-t from-brown-900/20 to-transparent rounded-2xl z-10"></div>
             <img
-              src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=600&h=800&fit=crop&crop=center"
+              src="https://i.pinimg.com/736x/cf/4e/f8/cf4ef879fcfbc22ebfb3c7b010d90ce1.jpg"
               alt="Summer fashion collection"
               className="rounded-2xl shadow-2xl w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
