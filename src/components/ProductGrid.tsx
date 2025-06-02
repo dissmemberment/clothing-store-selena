@@ -7,7 +7,7 @@ const ProductGrid = () => {
   const products = [
     {
       id: 1,
-      name: "Белое платье",
+      name: "платье",
       price: 3500,
       oldPrice: 4200,
       image:
@@ -18,51 +18,51 @@ const ProductGrid = () => {
     },
     {
       id: 2,
-      name: "Новое название шорт",
+      name: "шорты",
       price: 2200,
       image:
-        "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&h=600&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/7c/fa/09/7cfa09360223b332db2ec170fe7aff6b.jpg",
       category: "Низ",
       isNew: false,
       isSale: false,
     },
     {
       id: 3,
-      name: "Новое название футболки",
+      name: "футболка",
       price: 1800,
       image:
-        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop&crop=center",
-      category: "Топы",
+        "https://i.pinimg.com/736x/e9/22/8a/e9228a81831794befc5719e234920212.jpg",
+      category: "Футболки",
       isNew: true,
       isSale: false,
     },
     {
       id: 4,
-      name: "Кожаные сандалии",
+      name: "кеды",
       price: 4500,
       oldPrice: 6000,
       image:
-        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&h=600&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/6c/f2/90/6cf2907194b2a595e4cfaf12fdf9efe3.jpg",
       category: "Обувь",
       isNew: false,
       isSale: true,
     },
     {
       id: 5,
-      name: "Летний топ с открытыми плечами",
+      name: "футболка",
       price: 2800,
       image:
-        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/85/f2/36/85f2361dbfb599f2d8ea500596ffa938.jpg",
       category: "Топы",
       isNew: true,
       isSale: false,
     },
     {
       id: 6,
-      name: "Джинсовые шорты high waist",
+      name: "шорты",
       price: 3200,
       image:
-        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&h=600&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/be/08/c7/be08c7c7160a510e973a32f528ab0804.jpg",
       category: "Низ",
       isNew: false,
       isSale: false,
@@ -77,7 +77,7 @@ const ProductGrid = () => {
             Летняя коллекция
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Стильная и комфортная одежда для жаркого сезона
+            Стильная и комфортная одежда для летнего сезона
           </p>
         </div>
 

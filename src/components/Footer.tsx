@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold font-montserrat">SELENA</h3>
             <p className="text-gray-400">
-              Стильная летняя одежда для современных людей
+              Стильная летняя одежда
             </p>
             <div className="flex space-x-4">
               <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 cursor-pointer transition-colors">
@@ -33,7 +33,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Топы
+                  Футболки
                 </a>
               </li>
               <li>
