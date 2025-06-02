@@ -10,7 +10,8 @@ const ProductGrid = () => {
       name: "Элегантное платье с рукавами",
       price: 4500,
       oldPrice: 6000,
-      image: "/images/products/dress1.jpg",
+      image:
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&h=600&fit=crop&crop=center",
       category: "Платья",
       isNew: true,
       isSale: true,
@@ -19,7 +20,8 @@ const ProductGrid = () => {
       id: 2,
       name: "Классическая белая рубашка",
       price: 2800,
-      image: "/images/products/shirt1.jpg",
+      image:
+        "https://images.unsplash.com/photo-1586401100295-7a8096fd231e?w=500&h=600&fit=crop&crop=center",
       category: "Рубашки",
       isNew: false,
       isSale: false,
@@ -28,7 +30,8 @@ const ProductGrid = () => {
       id: 3,
       name: "Стильный жакет oversize",
       price: 7200,
-      image: "/images/products/jacket1.jpg",
+      image:
+        "https://images.unsplash.com/photo-1544441893-675973e31985?w=500&h=600&fit=crop&crop=center",
       category: "Жакеты",
       isNew: true,
       isSale: false,
@@ -38,7 +41,8 @@ const ProductGrid = () => {
       name: "Джинсы скинни premium",
       price: 3400,
       oldPrice: 4200,
-      image: "/images/products/jeans1.jpg",
+      image:
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=600&fit=crop&crop=center",
       category: "Джинсы",
       isNew: false,
       isSale: true,
@@ -47,7 +51,8 @@ const ProductGrid = () => {
       id: 5,
       name: "Летний топ с принтом",
       price: 1800,
-      image: "/images/products/top1.jpg",
+      image:
+        "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=500&h=600&fit=crop&crop=center",
       category: "Топы",
       isNew: true,
       isSale: false,
@@ -56,7 +61,8 @@ const ProductGrid = () => {
       id: 6,
       name: "Черные брюки классика",
       price: 3600,
-      image: "/images/products/pants1.jpg",
+      image:
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop&crop=center",
       category: "Брюки",
       isNew: false,
       isSale: false,
