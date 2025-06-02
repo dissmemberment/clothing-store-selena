@@ -7,14 +7,14 @@ const Categories = () => {
       name: "Платья",
       icon: "Shirt",
       image:
-        "https://images.unsplash.com/photo-1566479179817-c0cabed4a9fd?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 2,
       name: "Верхняя одежда",
       icon: "Coat",
       image:
-        "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 3,

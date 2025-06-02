@@ -44,8 +44,8 @@ const About = () => {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8"
-              alt="Ателье Selena"
+              src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&h=400&fit=crop&crop=center"
+              alt="Ателье и товары Selena"
               className="rounded-lg shadow-lg w-full h-80 object-cover"
             />
           </div>

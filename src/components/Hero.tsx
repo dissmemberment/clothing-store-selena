@@ -39,8 +39,8 @@ const Hero = () => {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-t from-brown-900/20 to-transparent rounded-2xl z-10"></div>
             <img
-              src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=800&fit=crop&crop=center"
-              alt="Fashion lookbook"
+              src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=600&h=800&fit=crop&crop=center"
+              alt="Fashion collection"
               className="rounded-2xl shadow-2xl w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg z-20">

@@ -11,7 +11,7 @@ const ProductGrid = () => {
       price: 4500,
       oldPrice: 6000,
       image:
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=600&fit=crop",
       category: "Платья",
       isNew: true,
       isSale: true,
@@ -21,7 +21,7 @@ const ProductGrid = () => {
       name: "Классическая белая рубашка",
       price: 2800,
       image:
-        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=600&fit=crop",
       category: "Рубашки",
       isNew: false,
       isSale: false,
@@ -31,7 +31,7 @@ const ProductGrid = () => {
       name: "Стильный жакет oversize",
       price: 7200,
       image:
-        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=400&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&h=600&fit=crop",
       category: "Жакеты",
       isNew: true,
       isSale: false,
@@ -52,7 +52,7 @@ const ProductGrid = () => {
       name: "Летний топ с принтом",
       price: 1800,
       image:
-        "https://images.unsplash.com/photo-1564257577-4b19f6ea0de6?w=400&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400&h=600&fit=crop",
       category: "Топы",
       isNew: true,
       isSale: false,
