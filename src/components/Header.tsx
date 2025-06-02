@@ -17,25 +17,31 @@ const Header = () => {
               href="#"
               className="text-gray-900 hover:text-purple-600 transition-colors"
             >
-              Женщинам
+              Каталог
             </a>
             <a
               href="#"
               className="text-gray-900 hover:text-purple-600 transition-colors"
             >
-              Мужчинам
+              Новинки
             </a>
             <a
               href="#"
               className="text-gray-900 hover:text-purple-600 transition-colors"
             >
-              Аксессуары
+              Акции
             </a>
             <a
               href="#"
               className="text-gray-900 hover:text-purple-600 transition-colors"
             >
-              Распродажа
+              О нас
+            </a>
+            <a
+              href="#"
+              className="text-gray-900 hover:text-purple-600 transition-colors"
+            >
+              Контакты
             </a>
           </nav>
 
@@ -43,14 +49,14 @@ const Header = () => {
             <Button variant="ghost" size="icon">
               <Icon name="Search" size={20} />
             </Button>
-            <Button variant="ghost" size="icon">
-              <Icon name="Heart" size={20} />
-            </Button>
             <Button variant="ghost" size="icon" className="relative">
               <Icon name="ShoppingBag" size={20} />
               <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                 2
               </span>
+            </Button>
+            <Button variant="ghost" size="icon">
+              <Icon name="User" size={20} />
             </Button>
           </div>
         </div>
