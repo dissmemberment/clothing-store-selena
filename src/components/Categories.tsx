@@ -7,28 +7,28 @@ const Categories = () => {
       name: "Платья",
       icon: "Shirt",
       image:
-        "https://images.unsplash.com/photo-1566479179817-c0b4c8ca3c6c?w=300&h=200&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/75/c7/a2/75c7a29605b690fd952e2822a12dea78.jpg",
     },
     {
       id: 2,
-      name: "Топы",
+      name: "Футболки",
       icon: "ShirtIcon",
       image:
-        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=300&h=200&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/13/75/76/137576858927057a9c5c11a42576aa64.jpg",
     },
     {
       id: 3,
       name: "Низ",
       icon: "Package",
       image:
-        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=300&h=200&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/9c/44/ae/9c44ae8c7cd9a6c63d1972ab29d9d029.jpg",
     },
     {
       id: 4,
       name: "Обувь",
       icon: "Footprints",
       image:
-        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300&h=200&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/5a/84/9e/5a849ed21da67418f21e1aeb1a54d5a1.jpg",
     },
   ];
 
