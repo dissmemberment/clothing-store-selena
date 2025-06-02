@@ -1,0 +1,9 @@
+
+# Папка для изображений товаров
+# Разместите здесь ваши изображения товаров
+
+# Рекомендуемая структура:
+# /images/products/dresses/dress1.jpg
+# /images/products/shirts/shirt1.jpg  
+# /images/products/jackets/jacket1.jpg
+# и т.д.
