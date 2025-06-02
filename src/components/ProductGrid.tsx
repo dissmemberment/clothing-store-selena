@@ -11,7 +11,7 @@ const ProductGrid = () => {
       price: 3500,
       oldPrice: 4200,
       image:
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop&crop=center",
+        "https://i.pinimg.com/736x/66/21/2c/66212c62462a31b09a5851e362aa7c22.jpg",
       category: "Платья",
       isNew: true,
       isSale: true,
