@@ -8,7 +8,7 @@ const ProductGrid = () => {
     {
       id: 1,
       name: "платье",
-      price: 3500,
+      price: 3300,
       oldPrice: 4200,
       image:
         "https://i.pinimg.com/736x/66/21/2c/66212c62462a31b09a5851e362aa7c22.jpg",
