@@ -2,36 +2,53 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-r from-gray-50 to-purple-50 py-20">
+    <section className="relative bg-gradient-to-br from-beige-50 via-white to-beige-100 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <h2 className="text-5xl font-bold text-gray-900 font-montserrat leading-tight">
-              Новая коллекция
-              <span className="text-purple-600 block">Весна 2025</span>
-            </h2>
-            <p className="text-xl text-gray-600 leading-relaxed">
-              Откройте для себя самые стильные образы сезона. Качественная
-              одежда для современных людей.
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="space-y-8 animate-fade-in">
+            <div className="space-y-4">
+              <p className="text-brown-600 uppercase text-sm font-medium tracking-widest">
+                Новая коллекция
+              </p>
+              <h2 className="text-6xl lg:text-7xl font-light text-brown-900 font-montserrat leading-none">
+                Весна
+                <span className="block font-bold">2025</span>
+              </h2>
+            </div>
+            <p className="text-lg text-brown-600 leading-relaxed max-w-md">
+              Минималистичная элегантность в каждой детали. Откройте коллекцию
+              для современных ценителей стиля.
             </p>
-            <div className="flex space-x-4">
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button
+                size="lg"
+                className="bg-brown-900 hover:bg-brown-800 text-white px-8 py-4 transition-all duration-300 hover:scale-105 hover:shadow-lg"
+              >
                 Смотреть коллекцию
               </Button>
-              <Button variant="outline" size="lg">
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-brown-300 text-brown-700 hover:bg-brown-50 px-8 py-4 transition-all duration-300 hover:scale-105"
+              >
                 Каталог
               </Button>
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative group">
+            <div className="absolute inset-0 bg-gradient-to-t from-brown-900/20 to-transparent rounded-2xl z-10"></div>
             <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=800&fit=crop&crop=center"
-              alt="Fashion model"
-              className="rounded-lg shadow-2xl w-full h-96 object-cover"
+              src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=800&fit=crop&crop=center"
+              alt="Fashion lookbook"
+              className="rounded-2xl shadow-2xl w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            <div className="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-lg">
-              <span className="text-purple-600 font-semibold">-30%</span>
+            <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg z-20">
+              <span className="text-brown-900 font-semibold">-30%</span>
+            </div>
+            <div className="absolute bottom-6 left-6 text-white z-20">
+              <p className="text-sm font-medium">Lookbook</p>
+              <p className="text-xs opacity-80">Spring Collection</p>
             </div>
           </div>
         </div>
