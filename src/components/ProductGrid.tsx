@@ -7,9 +7,9 @@ const ProductGrid = () => {
   const products = [
     {
       id: 1,
-      name: "Новое название платья",
+      name: "Белое платье",
       price: 3500,
-      oldPrice: 5000,
+      oldPrice: 4200,
       image:
         "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop&crop=center",
       category: "Платья",
