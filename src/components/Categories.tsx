@@ -4,31 +4,31 @@ const Categories = () => {
   const categories = [
     {
       id: 1,
-      name: "Платья",
-      icon: "Shirt",
+      name: "Аудио",
+      icon: "Headphones",
       image:
-        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 2,
-      name: "Верхняя одежда",
-      icon: "Coat",
+      name: "Компьютеры",
+      icon: "Monitor",
       image:
-        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1547658719-da2b51169166?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 3,
-      name: "Аксессуары",
-      icon: "Watch",
+      name: "Гаджеты",
+      icon: "Smartphone",
       image:
-        "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 4,
-      name: "Обувь",
-      icon: "Footprints",
+      name: "Аксессуары",
+      icon: "Cable",
       image:
-        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=200&fit=crop&crop=center",
     },
   ];
 
