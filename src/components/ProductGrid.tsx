@@ -7,63 +7,63 @@ const ProductGrid = () => {
   const products = [
     {
       id: 1,
-      name: "Беспроводные наушники Premium",
-      price: 8500,
-      oldPrice: 12000,
+      name: "Новое название платья",
+      price: 3500,
+      oldPrice: 5000,
       image:
-        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=600&fit=crop&crop=center",
-      category: "Аудио",
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=500&h=600&fit=crop&crop=center",
+      category: "Платья",
       isNew: true,
       isSale: true,
     },
     {
       id: 2,
-      name: "Смарт-часы с GPS",
-      price: 15500,
+      name: "Новое название шорт",
+      price: 2200,
       image:
-        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=600&fit=crop&crop=center",
-      category: "Гаджеты",
+        "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=500&h=600&fit=crop&crop=center",
+      category: "Низ",
       isNew: false,
       isSale: false,
     },
     {
       id: 3,
-      name: "Портативная колонка Bluetooth",
-      price: 4200,
+      name: "Новое название футболки",
+      price: 1800,
       image:
-        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500&h=600&fit=crop&crop=center",
-      category: "Аудио",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=600&fit=crop&crop=center",
+      category: "Топы",
       isNew: true,
       isSale: false,
     },
     {
       id: 4,
-      name: "Игровая мышь RGB",
-      price: 2800,
-      oldPrice: 3500,
+      name: "Кожаные сандалии",
+      price: 4500,
+      oldPrice: 6000,
       image:
-        "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=600&fit=crop&crop=center",
-      category: "Компьютеры",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&h=600&fit=crop&crop=center",
+      category: "Обувь",
       isNew: false,
       isSale: true,
     },
     {
       id: 5,
-      name: "Механическая клавиатура",
-      price: 6500,
+      name: "Летний топ с открытыми плечами",
+      price: 2800,
       image:
-        "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=500&h=600&fit=crop&crop=center",
-      category: "Компьютеры",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&h=600&fit=crop&crop=center",
+      category: "Топы",
       isNew: true,
       isSale: false,
     },
     {
       id: 6,
-      name: "Внешний аккумулятор 20000mAh",
+      name: "Джинсовые шорты high waist",
       price: 3200,
       image:
-        "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=600&fit=crop&crop=center",
-      category: "Аксессуары",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&h=600&fit=crop&crop=center",
+      category: "Низ",
       isNew: false,
       isSale: false,
     },
@@ -74,10 +74,10 @@ const ProductGrid = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 font-montserrat mb-4">
-            Популярные товары
+            Летняя коллекция
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Откройте для себя самые современные гаджеты и электронику
+            Стильная и комфортная одежда для жаркого сезона
           </p>
         </div>
 

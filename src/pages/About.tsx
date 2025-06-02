@@ -8,11 +8,11 @@ const About = () => {
       <section className="bg-gradient-to-r from-purple-100 to-pink-100 py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800">
-            О магазине TechZone
+            О магазине SELENA
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Инновации, качество и технологии будущего. Мы предлагаем современную
-            электронику и гаджеты для активной цифровой жизни.
+            Стиль, качество и элегантность. Мы предлагаем современную одежду и
+            аксессуары для активной и стильной жизни.
           </p>
         </div>
       </section>
@@ -24,29 +24,27 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-6">Наша история</h2>
             <div className="space-y-4 text-gray-600">
               <p>
-                Магазин TechZone был основан в 2020 году с простой, но
-                амбициозной целью — предоставлять доступ к самым современным
-                технологиям и качественной электронике для всех любителей
-                инноваций.
+                Магазин SELENA был основан в 2020 году с простой, но амбициозной
+                целью — предоставлять доступ к самой стильной и качественной
+                одежде для всех ценителей моды.
               </p>
               <p>
-                Начав с небольшого ассортимента смартфонов и аксессуаров, мы
-                постепенно расширили каталог, добавив компьютерную технику,
-                аудиоустройства, умные гаджеты и игровое оборудование. Каждый
-                товар отбирается с особым вниманием к качеству и
-                функциональности.
+                Начав с небольшого ассортимента платьев и аксессуаров, мы
+                постепенно расширили коллекцию, добавив повседневную одежду,
+                обувь, летние образы и стильные аксессуары. Каждая вещь
+                отбирается с особым вниманием к качеству и дизайну.
               </p>
               <p>
-                Сегодня TechZone — это магазин, которому доверяют тысячи
-                покупателей по всей России. Мы продолжаем развиваться и радовать
-                клиентов новинками технологий.
+                Сегодня SELENA — это магазин, которому доверяют тысячи
+                покупательниц по всей России. Мы продолжаем развиваться и
+                радовать клиенток новинками модных трендов.
               </p>
             </div>
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=600&h=400&fit=crop&crop=center"
-              alt="Магазин и товары TechZone"
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop&crop=center"
+              alt="Магазин одежды SELENA"
               className="rounded-lg shadow-lg w-full h-80 object-cover"
             />
           </div>
@@ -65,10 +63,10 @@ const About = () => {
                   size={48}
                   className="mx-auto mb-4 text-purple-600"
                 />
-                <h3 className="text-xl font-semibold mb-3">Инновации</h3>
+                <h3 className="text-xl font-semibold mb-3">Стиль</h3>
                 <p className="text-gray-600">
-                  Отбираем только самые передовые технологии и проверенные
-                  бренды. Каждый товар — это качество и надёжность.
+                  Отбираем только самые актуальные тренды и проверенные бренды.
+                  Каждая вещь — это качество и стиль.
                 </p>
               </CardContent>
             </Card>
@@ -79,10 +77,10 @@ const About = () => {
                   size={48}
                   className="mx-auto mb-4 text-purple-600"
                 />
-                <h3 className="text-xl font-semibold mb-3">Технологии</h3>
+                <h3 className="text-xl font-semibold mb-3">Качество</h3>
                 <p className="text-gray-600">
-                  Следим за новинками рынка и предлагаем актуальные решения,
-                  которые делают жизнь удобнее и интереснее.
+                  Следим за новинками моды и предлагаем актуальные образы,
+                  которые делают жизнь ярче и увереннее.
                 </p>
               </CardContent>
             </Card>
@@ -93,10 +91,10 @@ const About = () => {
                   size={48}
                   className="mx-auto mb-4 text-purple-600"
                 />
-                <h3 className="text-xl font-semibold mb-3">Гарантия</h3>
+                <h3 className="text-xl font-semibold mb-3">Комфорт</h3>
                 <p className="text-gray-600">
                   Предоставляем полную гарантию на всю продукцию и стремимся
-                  превзойти ожидания в сервисе и послепродажной поддержке.
+                  превзойти ожидания в сервисе и обслуживании клиентов.
                 </p>
               </CardContent>
             </Card>
@@ -112,32 +110,30 @@ const About = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
-                  alt="Алексей Технов"
+                  src="https://images.unsplash.com/photo-1594824815933-2d0ec0ba8be5"
+                  alt="Анна Стилева"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold">Алексей Технов</h3>
-                <p className="text-gray-600">Основатель и IT-директор</p>
+                <h3 className="text-xl font-semibold">Анна Стилева</h3>
+                <p className="text-gray-600">Основатель и стилист</p>
               </div>
               <div className="text-center">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
-                  alt="Мария Гаджетова"
+                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956"
+                  alt="Мария Модова"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold">Мария Гаджетова</h3>
+                <h3 className="text-xl font-semibold">Мария Модова</h3>
                 <p className="text-gray-600">Менеджер по закупкам</p>
               </div>
               <div className="text-center">
                 <img
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e"
-                  alt="Дмитрий Инновация"
+                  src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c"
+                  alt="Елена Трендова"
                   className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                 />
-                <h3 className="text-xl font-semibold">Дмитрий Инновация</h3>
-                <p className="text-gray-600">
-                  Специалист по технической поддержке
-                </p>
+                <h3 className="text-xl font-semibold">Елена Трендова</h3>
+                <p className="text-gray-600">Консультант по стилю</p>
               </div>
             </div>
           </div>

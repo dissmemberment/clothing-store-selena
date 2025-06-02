@@ -33,9 +33,9 @@ const Contacts = () => {
                   <div>
                     <h3 className="font-semibold">Адрес</h3>
                     <p className="text-gray-600">
-                      г. Москва, ул. Тверская, 15
+                      г. Новосибирск, ул. Ленина, 12
                       <br />
-                      ТЦ "Модный квартал", 3 этаж
+                      ТЦ "Сибирский Молл", 2 этаж
                     </p>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const Contacts = () => {
                   <div>
                     <h3 className="font-semibold">Телефон</h3>
                     <p className="text-gray-600">
-                      +7 (495) 123-45-67
+                      +7 (993) 935-59-45
                       <br />
                       +7 (800) 555-01-23 (бесплатно)
                     </p>
@@ -65,7 +65,7 @@ const Contacts = () => {
                   <div>
                     <h3 className="font-semibold">Email</h3>
                     <p className="text-gray-600">
-                      info@selena-fashion.ru
+                      vladislavonecare@gmail.com
                       <br />
                       support@selena-fashion.ru
                     </p>
@@ -147,7 +147,7 @@ const Contacts = () => {
                   <div className="text-center text-gray-500">
                     <Icon name="MapPin" size={48} className="mx-auto mb-2" />
                     <p>Интерактивная карта</p>
-                    <p className="text-sm">г. Москва, ул. Тверская, 15</p>
+                    <p className="text-sm">г. Новосибирск, ул. Ленина, 12</p>
                   </div>
                 </div>
               </CardContent>

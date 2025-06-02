@@ -4,31 +4,31 @@ const Categories = () => {
   const categories = [
     {
       id: 1,
-      name: "Аудио",
-      icon: "Headphones",
+      name: "Платья",
+      icon: "Shirt",
       image:
-        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1566479179817-c0b4c8ca3c6c?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 2,
-      name: "Компьютеры",
-      icon: "Monitor",
+      name: "Топы",
+      icon: "ShirtIcon",
       image:
-        "https://images.unsplash.com/photo-1547658719-da2b51169166?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 3,
-      name: "Гаджеты",
-      icon: "Smartphone",
+      name: "Низ",
+      icon: "Package",
       image:
-        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=300&h=200&fit=crop&crop=center",
     },
     {
       id: 4,
-      name: "Аксессуары",
-      icon: "Cable",
+      name: "Обувь",
+      icon: "Footprints",
       image:
-        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=300&h=200&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300&h=200&fit=crop&crop=center",
     },
   ];
 
@@ -37,7 +37,7 @@ const Categories = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 font-montserrat mb-4">
-            Категории товаров
+            Категории одежды
           </h2>
           <p className="text-gray-600">
             Выберите категорию для поиска идеального образа

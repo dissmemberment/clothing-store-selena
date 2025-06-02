@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold font-montserrat">SELENA</h3>
             <p className="text-gray-400">
-              Премиальная одежда для стильных и современных людей
+              Стильная летняя одежда для современных людей
             </p>
             <div className="flex space-x-4">
               <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 cursor-pointer transition-colors">
@@ -28,22 +28,22 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-400">
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Женщинам
+                  Платья
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Мужчинам
+                  Топы
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Аксессуары
+                  Низ
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Распродажа
+                  Обувь
                 </a>
               </li>
             </ul>
@@ -80,15 +80,15 @@ const Footer = () => {
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center">
                 <Icon name="Phone" size={16} className="mr-2" />
-                +7 (999) 123-45-67
+                +7 (993) 935-59-45
               </p>
               <p className="flex items-center">
                 <Icon name="Mail" size={16} className="mr-2" />
-                info@selena.ru
+                vladislavonecare@gmail.com
               </p>
               <p className="flex items-center">
                 <Icon name="MapPin" size={16} className="mr-2" />
-                Москва, Тверская 12
+                Новосибирск, ул. Ленина 12
               </p>
             </div>
           </div>
